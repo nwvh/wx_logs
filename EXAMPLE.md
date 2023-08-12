@@ -1,4 +1,4 @@
-exports['wx_logs']:Log("death",{
+exports['wx_logs']:SendLog("death",{
     username = "Player Deaths",
     color = 16737095,
     title = "Death",
