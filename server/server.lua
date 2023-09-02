@@ -46,10 +46,10 @@ exports('SendLog',function (webhook,data)
     SendLog(webhook,data)
 end)
 
-exports['wx_logs']:SendLog('test',{
-    title = "Hello!",
-    description = "This is a simple log system!",
-})
+-- exports['wx_logs']:SendLog('test',{
+--     title = "Hello!",
+--     description = "This is a simple log system!",
+-- })
 
 AddEventHandler('onResourceStart',function (r)
     if r == GetCurrentResourceName() then
