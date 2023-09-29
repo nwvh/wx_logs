@@ -1,3 +1,4 @@
+```lua
 exports['wx_logs']:SendLog("death",{
     username = "Player Deaths",
     color = 16737095,
@@ -20,3 +21,5 @@ exports['wx_logs']:SendLog("death",{
         },
     },
 })
+
+```
